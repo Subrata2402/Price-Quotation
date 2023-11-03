@@ -5,6 +5,11 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+::selection {
+    background-color: black;
+    color: white;
+}
+
 .container {
     margin: 0 20%;
 }
