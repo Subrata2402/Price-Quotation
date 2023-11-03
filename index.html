@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Quotation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Price Quotation</h1>
+        </div>
+        <div class="label-input">
+            <div class="label">
+                <label for="subtotal">Subtotal<span>:</span></label>
+            </div>
+            <div class="input">
+                <input type="text" name="sub-total" id="subtotal" required>
+            </div>
+            <div class="text">
+                <p>Please enter a sale price.</p>
+            </div>
+        </div>
+        <div class="label-input">
+            <div class="label">
+                <label for="discount">Discount percent<span>:</span></label>
+            </div>
+            <div class="input">
+                <input type="text" name="discount" id="discount" required>
+            </div>
+            <div class="text">
+                <p>Please enter a discount percent.</p>
+            </div>
+        </div>
+        <div class="label-input">
+            <div class="label">
+                <label for="amount">Discount amount<span>:</span></label>
+            </div>
+            <div class="input">
+                <label for="discount-amounts" id="discount-amount">$0.00</label>
+            </div>
+            <div class="text">
+
+            </div>
+        </div>
+        <div class="label-input">
+            <div class="label">
+                <label for="total">Total<span>:</span></label>
+            </div>
+            <div class="input">
+                <label for="total-amount" id="total">$0.00</label>
+            </div>
+            <div class="text">
+
+            </div>
+        </div>
+        <div class="label-input">
+            <div class="label">
+
+            </div>
+            <div class="input">
+                <button type="submit" id="calculate-button">Calculate</button>
+                <button type="submit" id="clear-button">Clear</button>
+            </div>
+            <div class="text">
+
+            </div>
+        </div>
+        <div class="popup-window" id="popup">
+            <div class="popup">
+                <img src="alert-icon-red-11.png" alt="alert">
+                <h3 id="popup-text">Please enter a sale price.</h3>
+                <button type="submit" id="close-popup">Okay</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
